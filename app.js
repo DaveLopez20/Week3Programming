@@ -1,5 +1,13 @@
 const name = "Apollo";
 
+
+function toUpper(text) {
+ const upperCased = text.toUpperCase();
+ console.log(text);
+
+}
+toUpper(name);
+
 function adder(num1, num2) {
     console.log(num1 + num2);
 }
@@ -31,3 +39,10 @@ function Person(first, last, age, eye) {
   // Display nationality 
   document.getElementById("demo").innerHTML =
   "My father is " + myFather.nationality; 
+
+  function myFunction(a, b) {
+    return a * b;
+  }
+  document.getElementById("demo").innerHTML = myFunction(10, 2); 
+
+
